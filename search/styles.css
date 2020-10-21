@@ -1,0 +1,106 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a {
+  float: right;
+  display: block;
+  color: #404040;
+  text-align: center;
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  text-decoration: underline;
+  text-decoration-color: #404040;
+  box-shadow: 1px 1px 5px #999;
+}
+
+.mainbody {
+  text-align: center;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  width: 100%;
+}
+
+form {
+  width: 450px;
+  line-height: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  height: 30px;
+  width: 180px;search
+  font-weight: bold;
+  border-radius: 5px;
+  color: #708090;
+  border-color: white;
+  background-color: #D3D3D3
+}
+
+.button:hover {
+  box-shadow: 1px 1px 5px #999;
+  border-color: #708090;
+  background-color: #DCDCDC;
+}
+
+.searchbar {
+  border-radius: 25px;
+  height: 30px;
+  width: 300px;
+  border-style: solid;
+  border-color: #D3D3D3;
+  text-indent: 10px;
+}
+
+.searchbara {
+  border-radius: 25px;
+  height: 30px;
+  width: 500px;
+  border-style: solid;
+  border-color: #D3D3D3;
+  text-indent: 10px;
+}
+
+.row > div {
+    padding: 20px;
+}
+
+#advanced {
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  height: 30px;
+  width: 150px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  border-color: white;
+  background-color: blue;
+  margin-left: auto;
+  margin-right: none;
+}
